@@ -52,8 +52,8 @@
 		return data;
 	});
 
-	app.run(['$rootScope', '$window', 'srvAuth',
-      function ($rootScope, $window, sAuth) {
+	app.run(['$rootScope', '$window',
+      function ($rootScope, $window) {
 
           $rootScope.user = {};
 
