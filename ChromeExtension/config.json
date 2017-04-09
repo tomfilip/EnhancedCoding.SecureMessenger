@@ -1,0 +1,11 @@
+{
+  "userInfoUrl": "https://graph.facebook.com/me",
+  "userInfoNameField": "name",
+  "implicitGrantUrl": "https://www.facebook.com/v2.8/dialog/oauth",
+  "logoutUrl": "https://accounts.google.com/logout",
+  "tokenInfoUrl": "https://graph.facebook.com/debug_token",
+  "clientId": "290412921380719",
+  "scopes": "email",
+  "logoutWarningSeconds": 60,
+  "autoReLogin": true
+}

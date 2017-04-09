@@ -6,10 +6,19 @@
   "version": "1.0",
 
   "permissions": [
-    "https://secure.flickr.com/"
+    "tabs",
+    "http://*/*",
+    "https://*/*",
+    "background",
+    "identity"
   ],
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
   "browser_action": {
     "default_icon": "img/icon.png",
-    "default_popup": "popup.html"
+    "default_popup": "main.html"
   }
 }
